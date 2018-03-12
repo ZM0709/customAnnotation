@@ -6,4 +6,5 @@
 ![image](https://github.com/zhanggm79/customAnnotation/blob/master/00.jpg)
 
 
+新增一种自定义大头针及calloutView的方法，具体请见代码。
 
