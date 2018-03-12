@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1971ED4E205620C1001DCF97 /* GMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1971ED4B205620C1001DCF97 /* GMTabBarController.m */; };
+		1971ED5220562634001DCF97 /* CalloutAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1971ED5120562634001DCF97 /* CalloutAnnotation.m */; };
+		1971ED55205626D4001DCF97 /* CalloutAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1971ED54205626D4001DCF97 /* CalloutAnnotationView.m */; };
+		1971ED582056271C001DCF97 /* CalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1971ED572056271C001DCF97 /* CalloutView.m */; };
+		1971ED5A20562726001DCF97 /* CalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1971ED5920562726001DCF97 /* CalloutView.xib */; };
+		198495912052989900589A15 /* AnnotationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1984958A2052989900589A15 /* AnnotationModel.m */; };
+		198495922052989900589A15 /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1984958C2052989900589A15 /* CustomAnnotation.m */; };
+		198495932052989900589A15 /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1984958E2052989900589A15 /* CustomAnnotationView.m */; };
+		198495942052989900589A15 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 198495902052989900589A15 /* HomeController.m */; };
+		19849598205298ED00589A15 /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19849597205298ED00589A15 /* TempViewController.m */; };
+		198495A2205299EC00589A15 /* LocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 19849599205299EB00589A15 /* LocationModel.m */; };
+		198495A4205299EC00589A15 /* LocationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1984959E205299EC00589A15 /* LocationView.xib */; };
+		198495A5205299EC00589A15 /* LocationAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 198495A0205299EC00589A15 /* LocationAnnotationView.m */; };
+		198495A6205299EC00589A15 /* LocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 198495A1205299EC00589A15 /* LocationView.m */; };
+		198495A920529B8700589A15 /* LocationAnnoation.m in Sources */ = {isa = PBXBuildFile; fileRef = 198495A820529B8700589A15 /* LocationAnnoation.m */; };
+		19A4355C1FC432840047ADA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A4355B1FC432840047ADA8 /* AppDelegate.m */; };
+		19A435621FC432840047ADA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A435601FC432840047ADA8 /* Main.storyboard */; };
+		19A435641FC432840047ADA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A435631FC432840047ADA8 /* Assets.xcassets */; };
+		19A435671FC432840047ADA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A435651FC432840047ADA8 /* LaunchScreen.storyboard */; };
+		19A4356A1FC432840047ADA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A435691FC432840047ADA8 /* main.m */; };
+		19A435741FC432840047ADA8 /* customAnnotationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A435731FC432840047ADA8 /* customAnnotationTests.m */; };
+		19A4357F1FC432840047ADA8 /* customAnnotationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A4357E1FC432840047ADA8 /* customAnnotationUITests.m */; };
+		55407B6EB663FEB100896A63 /* libPods-customAnnotation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B10AF7C3631E40C2FAF316B5 /* libPods-customAnnotation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19A435701FC432840047ADA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19A4354F1FC432840047ADA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19A435561FC432840047ADA8;
+			remoteInfo = customAnnotation;
+		};
+		19A4357B1FC432840047ADA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19A4354F1FC432840047ADA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19A435561FC432840047ADA8;
+			remoteInfo = customAnnotation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1971ED4A205620C1001DCF97 /* GMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMTabBarController.h; sourceTree = "<group>"; };
+		1971ED4B205620C1001DCF97 /* GMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMTabBarController.m; sourceTree = "<group>"; };
+		1971ED5020562634001DCF97 /* CalloutAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalloutAnnotation.h; sourceTree = "<group>"; };
+		1971ED5120562634001DCF97 /* CalloutAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalloutAnnotation.m; sourceTree = "<group>"; };
+		1971ED53205626D4001DCF97 /* CalloutAnnotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalloutAnnotationView.h; sourceTree = "<group>"; };
+		1971ED54205626D4001DCF97 /* CalloutAnnotationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalloutAnnotationView.m; sourceTree = "<group>"; };
+		1971ED562056271C001DCF97 /* CalloutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalloutView.h; sourceTree = "<group>"; };
+		1971ED572056271C001DCF97 /* CalloutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalloutView.m; sourceTree = "<group>"; };
+		1971ED5920562726001DCF97 /* CalloutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalloutView.xib; sourceTree = "<group>"; };
+		198495892052989900589A15 /* AnnotationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationModel.h; sourceTree = "<group>"; };
+		1984958A2052989900589A15 /* AnnotationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationModel.m; sourceTree = "<group>"; };
+		1984958B2052989900589A15 /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		1984958C2052989900589A15 /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
+		1984958D2052989900589A15 /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
+		1984958E2052989900589A15 /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
+		1984958F2052989900589A15 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		198495902052989900589A15 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		19849596205298ED00589A15 /* TempViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TempViewController.h; sourceTree = "<group>"; };
+		19849597205298ED00589A15 /* TempViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempViewController.m; sourceTree = "<group>"; };
+		19849599205299EB00589A15 /* LocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationModel.m; sourceTree = "<group>"; };
+		1984959A205299EB00589A15 /* LocationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationView.h; sourceTree = "<group>"; };
+		1984959B205299EC00589A15 /* LocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationModel.h; sourceTree = "<group>"; };
+		1984959E205299EC00589A15 /* LocationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationView.xib; sourceTree = "<group>"; };
+		1984959F205299EC00589A15 /* LocationAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAnnotationView.h; sourceTree = "<group>"; };
+		198495A0205299EC00589A15 /* LocationAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAnnotationView.m; sourceTree = "<group>"; };
+		198495A1205299EC00589A15 /* LocationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationView.m; sourceTree = "<group>"; };
+		198495A720529B8700589A15 /* LocationAnnoation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationAnnoation.h; sourceTree = "<group>"; };
+		198495A820529B8700589A15 /* LocationAnnoation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationAnnoation.m; sourceTree = "<group>"; };
+		19A435571FC432840047ADA8 /* customAnnotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customAnnotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A4355A1FC432840047ADA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19A4355B1FC432840047ADA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19A435611FC432840047ADA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19A435631FC432840047ADA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19A435661FC432840047ADA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19A435681FC432840047ADA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19A435691FC432840047ADA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19A4356F1FC432840047ADA8 /* customAnnotationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customAnnotationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A435731FC432840047ADA8 /* customAnnotationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customAnnotationTests.m; sourceTree = "<group>"; };
+		19A435751FC432840047ADA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19A4357A1FC432840047ADA8 /* customAnnotationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customAnnotationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A4357E1FC432840047ADA8 /* customAnnotationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customAnnotationUITests.m; sourceTree = "<group>"; };
+		19A435801FC432840047ADA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19D9273A1FC51CD7003CFDCD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		480C3651C782B7A9255ED6BE /* Pods-customAnnotation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customAnnotation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-customAnnotation/Pods-customAnnotation.debug.xcconfig"; sourceTree = "<group>"; };
+		771DE6E5AD63088064D126D1 /* Pods-customAnnotation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customAnnotation.release.xcconfig"; path = "Pods/Target Support Files/Pods-customAnnotation/Pods-customAnnotation.release.xcconfig"; sourceTree = "<group>"; };
+		B10AF7C3631E40C2FAF316B5 /* libPods-customAnnotation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-customAnnotation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19A435541FC432840047ADA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55407B6EB663FEB100896A63 /* libPods-customAnnotation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A4356C1FC432840047ADA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A435771FC432840047ADA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06B9CEC65DF225A268148DFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B10AF7C3631E40C2FAF316B5 /* libPods-customAnnotation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A6BD16FF7F3544D251A1C66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				480C3651C782B7A9255ED6BE /* Pods-customAnnotation.debug.xcconfig */,
+				771DE6E5AD63088064D126D1 /* Pods-customAnnotation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1971ED49205620A6001DCF97 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1971ED4A205620C1001DCF97 /* GMTabBarController.h */,
+				1971ED4B205620C1001DCF97 /* GMTabBarController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		198495872052988100589A15 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				19A435601FC432840047ADA8 /* Main.storyboard */,
+				19A435631FC432840047ADA8 /* Assets.xcassets */,
+				19A435651FC432840047ADA8 /* LaunchScreen.storyboard */,
+				19A435681FC432840047ADA8 /* Info.plist */,
+				19A435691FC432840047ADA8 /* main.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		198495882052989900589A15 /* 自定义大头针1 */ = {
+			isa = PBXGroup;
+			children = (
+				1984958F2052989900589A15 /* HomeController.h */,
+				198495902052989900589A15 /* HomeController.m */,
+				198495892052989900589A15 /* AnnotationModel.h */,
+				1984958A2052989900589A15 /* AnnotationModel.m */,
+				1984958B2052989900589A15 /* CustomAnnotation.h */,
+				1984958C2052989900589A15 /* CustomAnnotation.m */,
+				1984958D2052989900589A15 /* CustomAnnotationView.h */,
+				1984958E2052989900589A15 /* CustomAnnotationView.m */,
+			);
+			path = "自定义大头针1";
+			sourceTree = "<group>";
+		};
+		19849595205298A200589A15 /* 自定义大头针2 */ = {
+			isa = PBXGroup;
+			children = (
+				19849596205298ED00589A15 /* TempViewController.h */,
+				19849597205298ED00589A15 /* TempViewController.m */,
+				198495A720529B8700589A15 /* LocationAnnoation.h */,
+				198495A820529B8700589A15 /* LocationAnnoation.m */,
+				1984959F205299EC00589A15 /* LocationAnnotationView.h */,
+				198495A0205299EC00589A15 /* LocationAnnotationView.m */,
+				1984959B205299EC00589A15 /* LocationModel.h */,
+				19849599205299EB00589A15 /* LocationModel.m */,
+				1984959A205299EB00589A15 /* LocationView.h */,
+				198495A1205299EC00589A15 /* LocationView.m */,
+				1984959E205299EC00589A15 /* LocationView.xib */,
+				1971ED5020562634001DCF97 /* CalloutAnnotation.h */,
+				1971ED5120562634001DCF97 /* CalloutAnnotation.m */,
+				1971ED53205626D4001DCF97 /* CalloutAnnotationView.h */,
+				1971ED54205626D4001DCF97 /* CalloutAnnotationView.m */,
+				1971ED562056271C001DCF97 /* CalloutView.h */,
+				1971ED572056271C001DCF97 /* CalloutView.m */,
+				1971ED5920562726001DCF97 /* CalloutView.xib */,
+			);
+			path = "自定义大头针2";
+			sourceTree = "<group>";
+		};
+		19A4354E1FC432840047ADA8 = {
+			isa = PBXGroup;
+			children = (
+				19A435591FC432840047ADA8 /* customAnnotation */,
+				19A435721FC432840047ADA8 /* customAnnotationTests */,
+				19A4357D1FC432840047ADA8 /* customAnnotationUITests */,
+				19A435581FC432840047ADA8 /* Products */,
+				0A6BD16FF7F3544D251A1C66 /* Pods */,
+				06B9CEC65DF225A268148DFE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		19A435581FC432840047ADA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19A435571FC432840047ADA8 /* customAnnotation.app */,
+				19A4356F1FC432840047ADA8 /* customAnnotationTests.xctest */,
+				19A4357A1FC432840047ADA8 /* customAnnotationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19A435591FC432840047ADA8 /* customAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				19A4355A1FC432840047ADA8 /* AppDelegate.h */,
+				19A4355B1FC432840047ADA8 /* AppDelegate.m */,
+				19D9273A1FC51CD7003CFDCD /* PrefixHeader.pch */,
+				1971ED49205620A6001DCF97 /* Main */,
+				198495882052989900589A15 /* 自定义大头针1 */,
+				19849595205298A200589A15 /* 自定义大头针2 */,
+				198495872052988100589A15 /* Other */,
+			);
+			path = customAnnotation;
+			sourceTree = "<group>";
+		};
+		19A435721FC432840047ADA8 /* customAnnotationTests */ = {
+			isa = PBXGroup;
+			children = (
+				19A435731FC432840047ADA8 /* customAnnotationTests.m */,
+				19A435751FC432840047ADA8 /* Info.plist */,
+			);
+			path = customAnnotationTests;
+			sourceTree = "<group>";
+		};
+		19A4357D1FC432840047ADA8 /* customAnnotationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19A4357E1FC432840047ADA8 /* customAnnotationUITests.m */,
+				19A435801FC432840047ADA8 /* Info.plist */,
+			);
+			path = customAnnotationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19A435561FC432840047ADA8 /* customAnnotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A435831FC432840047ADA8 /* Build configuration list for PBXNativeTarget "customAnnotation" */;
+			buildPhases = (
+				47FF45C245C031E9E3D836F2 /* [CP] Check Pods Manifest.lock */,
+				19A435531FC432840047ADA8 /* Sources */,
+				19A435541FC432840047ADA8 /* Frameworks */,
+				19A435551FC432840047ADA8 /* Resources */,
+				F086370348D5211FF8C91DDD /* [CP] Embed Pods Frameworks */,
+				860B809CDFE0FB7474C9E185 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = customAnnotation;
+			productName = customAnnotation;
+			productReference = 19A435571FC432840047ADA8 /* customAnnotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19A4356E1FC432840047ADA8 /* customAnnotationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A435861FC432840047ADA8 /* Build configuration list for PBXNativeTarget "customAnnotationTests" */;
+			buildPhases = (
+				19A4356B1FC432840047ADA8 /* Sources */,
+				19A4356C1FC432840047ADA8 /* Frameworks */,
+				19A4356D1FC432840047ADA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19A435711FC432840047ADA8 /* PBXTargetDependency */,
+			);
+			name = customAnnotationTests;
+			productName = customAnnotationTests;
+			productReference = 19A4356F1FC432840047ADA8 /* customAnnotationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19A435791FC432840047ADA8 /* customAnnotationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A435891FC432840047ADA8 /* Build configuration list for PBXNativeTarget "customAnnotationUITests" */;
+			buildPhases = (
+				19A435761FC432840047ADA8 /* Sources */,
+				19A435771FC432840047ADA8 /* Frameworks */,
+				19A435781FC432840047ADA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19A4357C1FC432840047ADA8 /* PBXTargetDependency */,
+			);
+			name = customAnnotationUITests;
+			productName = customAnnotationUITests;
+			productReference = 19A4357A1FC432840047ADA8 /* customAnnotationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19A4354F1FC432840047ADA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Z;
+				TargetAttributes = {
+					19A435561FC432840047ADA8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					19A4356E1FC432840047ADA8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19A435561FC432840047ADA8;
+					};
+					19A435791FC432840047ADA8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19A435561FC432840047ADA8;
+					};
+				};
+			};
+			buildConfigurationList = 19A435521FC432840047ADA8 /* Build configuration list for PBXProject "customAnnotation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19A4354E1FC432840047ADA8;
+			productRefGroup = 19A435581FC432840047ADA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19A435561FC432840047ADA8 /* customAnnotation */,
+				19A4356E1FC432840047ADA8 /* customAnnotationTests */,
+				19A435791FC432840047ADA8 /* customAnnotationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19A435551FC432840047ADA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A435671FC432840047ADA8 /* LaunchScreen.storyboard in Resources */,
+				198495A4205299EC00589A15 /* LocationView.xib in Resources */,
+				19A435641FC432840047ADA8 /* Assets.xcassets in Resources */,
+				19A435621FC432840047ADA8 /* Main.storyboard in Resources */,
+				1971ED5A20562726001DCF97 /* CalloutView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A4356D1FC432840047ADA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A435781FC432840047ADA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47FF45C245C031E9E3D836F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-customAnnotation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		860B809CDFE0FB7474C9E185 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-customAnnotation/Pods-customAnnotation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F086370348D5211FF8C91DDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-customAnnotation/Pods-customAnnotation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19A435531FC432840047ADA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1971ED582056271C001DCF97 /* CalloutView.m in Sources */,
+				198495912052989900589A15 /* AnnotationModel.m in Sources */,
+				198495A920529B8700589A15 /* LocationAnnoation.m in Sources */,
+				19A4356A1FC432840047ADA8 /* main.m in Sources */,
+				198495932052989900589A15 /* CustomAnnotationView.m in Sources */,
+				198495A6205299EC00589A15 /* LocationView.m in Sources */,
+				198495A5205299EC00589A15 /* LocationAnnotationView.m in Sources */,
+				1971ED5220562634001DCF97 /* CalloutAnnotation.m in Sources */,
+				19A4355C1FC432840047ADA8 /* AppDelegate.m in Sources */,
+				1971ED55205626D4001DCF97 /* CalloutAnnotationView.m in Sources */,
+				1971ED4E205620C1001DCF97 /* GMTabBarController.m in Sources */,
+				198495A2205299EC00589A15 /* LocationModel.m in Sources */,
+				198495942052989900589A15 /* HomeController.m in Sources */,
+				19849598205298ED00589A15 /* TempViewController.m in Sources */,
+				198495922052989900589A15 /* CustomAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A4356B1FC432840047ADA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A435741FC432840047ADA8 /* customAnnotationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A435761FC432840047ADA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A4357F1FC432840047ADA8 /* customAnnotationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19A435711FC432840047ADA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19A435561FC432840047ADA8 /* customAnnotation */;
+			targetProxy = 19A435701FC432840047ADA8 /* PBXContainerItemProxy */;
+		};
+		19A4357C1FC432840047ADA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19A435561FC432840047ADA8 /* customAnnotation */;
+			targetProxy = 19A4357B1FC432840047ADA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19A435601FC432840047ADA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19A435611FC432840047ADA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19A435651FC432840047ADA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19A435661FC432840047ADA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19A435811FC432840047ADA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19A435821FC432840047ADA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19A435841FC432840047ADA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 480C3651C782B7A9255ED6BE /* Pods-customAnnotation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PU2N6K3CPP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/customAnnotation/PrefixHeader.pch";
+				INFOPLIST_FILE = customAnnotation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WenYan.customAnnotation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		19A435851FC432840047ADA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 771DE6E5AD63088064D126D1 /* Pods-customAnnotation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PU2N6K3CPP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/customAnnotation/PrefixHeader.pch";
+				INFOPLIST_FILE = customAnnotation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WenYan.customAnnotation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		19A435871FC432840047ADA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = customAnnotationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WenYan.customAnnotationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/customAnnotation.app/customAnnotation";
+			};
+			name = Debug;
+		};
+		19A435881FC432840047ADA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = customAnnotationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WenYan.customAnnotationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/customAnnotation.app/customAnnotation";
+			};
+			name = Release;
+		};
+		19A4358A1FC432840047ADA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = customAnnotationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WenYan.customAnnotationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = customAnnotation;
+			};
+			name = Debug;
+		};
+		19A4358B1FC432840047ADA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = customAnnotationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WenYan.customAnnotationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = customAnnotation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19A435521FC432840047ADA8 /* Build configuration list for PBXProject "customAnnotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A435811FC432840047ADA8 /* Debug */,
+				19A435821FC432840047ADA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A435831FC432840047ADA8 /* Build configuration list for PBXNativeTarget "customAnnotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A435841FC432840047ADA8 /* Debug */,
+				19A435851FC432840047ADA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A435861FC432840047ADA8 /* Build configuration list for PBXNativeTarget "customAnnotationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A435871FC432840047ADA8 /* Debug */,
+				19A435881FC432840047ADA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A435891FC432840047ADA8 /* Build configuration list for PBXNativeTarget "customAnnotationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A4358A1FC432840047ADA8 /* Debug */,
+				19A4358B1FC432840047ADA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19A4354F1FC432840047ADA8 /* Project object */;
+}

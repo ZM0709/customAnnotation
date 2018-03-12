@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  customAnnotation
+//
+//  Created by Z on 2017/11/22.
+//  Copyright © 2017年 Z. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "AFNetworking.h"
+#import "YYModel.h"
+#import "BANetManager.h"
+#import "SDImageCache.h"
+#import "UIImageView+WebCache.h"
+
+
+#define MAPURL    @"http://www.tourbjxch.com.cn/app/?action=get_res_list&name=enscenic&pagesize=10&pageindex=1"
+
+
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define SCREEN_SIZE [UIScreen mainScreen].bounds.size
+#define SCREEN_BOUNDS [UIScreen mainScreen].bounds//屏幕的bounds
+
+
+#ifdef DEBUG
+#define NSLog(...) NSLog(@"%s 第%d行 \n %@\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+#else
+#define NSLog(...)
+#endif
+
+
+
+#endif /* PrefixHeader_pch */
