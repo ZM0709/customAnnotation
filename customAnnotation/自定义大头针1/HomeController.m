@@ -14,6 +14,8 @@
 #import "CustomAnnotation.h"
 #import "CustomAnnotationView.h"
 
+
+
 @interface HomeController () <MKMapViewDelegate,CLLocationManagerDelegate>
 @property (nonatomic,strong) MKMapView * mapView;
 @property (nonatomic,strong) CLLocationManager * locationManger;
@@ -98,15 +100,16 @@
 
 //初始化数据
 - (void)loadData {
-    [BANetManager ba_request_POSTWithUrlString:MAPURL isNeedCache:NO parameters:nil successBlock:^(id response) {
-        NSLog(@"%@",response);
+    [NetworkManager updateBaseUrl:@"http://www.tourbjxch.com.cn"];
+    [NetworkManager autoToClearCacheWithLimitedToSize:500];
+    NetworkManagerShare.isOpenLog = YES;
+    [NetworkManager requestPOSTWithUrlString:MAPURL isNeedCache:NO parameters:nil successBlock:^(id  _Nonnull response) {
         AnnotationModel * annModel = [AnnotationModel yy_modelWithDictionary:response];
         self.listArray = [annModel valueForKey:@"data"];
         [self addAnnotation];
-    } failureBlock:^(NSError *error) {
+    } failureBlock:^(NSError * _Nonnull error) {
         NSLog(@"%@",error);
-    } progressBlock:nil];
-}
+    } progressBlock:nil];}
 
 
 - (void)addAnnotation {

@@ -29,6 +29,9 @@
 		19A4356A1FC432840047ADA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A435691FC432840047ADA8 /* main.m */; };
 		19A435741FC432840047ADA8 /* customAnnotationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A435731FC432840047ADA8 /* customAnnotationTests.m */; };
 		19A4357F1FC432840047ADA8 /* customAnnotationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A4357E1FC432840047ADA8 /* customAnnotationUITests.m */; };
+		1FF6E66D22E9AB74004E3BFB /* UIImage+CompressImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF6E66922E9AB74004E3BFB /* UIImage+CompressImage.m */; };
+		1FF6E66E22E9AB74004E3BFB /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF6E66A22E9AB74004E3BFB /* NetworkManager.m */; };
+		1FF6E66F22E9AB74004E3BFB /* NetworkManagerCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF6E66C22E9AB74004E3BFB /* NetworkManagerCache.m */; };
 		55407B6EB663FEB100896A63 /* libPods-customAnnotation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B10AF7C3631E40C2FAF316B5 /* libPods-customAnnotation.a */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +96,12 @@
 		19A4357E1FC432840047ADA8 /* customAnnotationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customAnnotationUITests.m; sourceTree = "<group>"; };
 		19A435801FC432840047ADA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19D9273A1FC51CD7003CFDCD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1FF6E66722E9AB74004E3BFB /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		1FF6E66822E9AB74004E3BFB /* NetworkManagerCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManagerCache.h; sourceTree = "<group>"; };
+		1FF6E66922E9AB74004E3BFB /* UIImage+CompressImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CompressImage.m"; sourceTree = "<group>"; };
+		1FF6E66A22E9AB74004E3BFB /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		1FF6E66B22E9AB74004E3BFB /* UIImage+CompressImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CompressImage.h"; sourceTree = "<group>"; };
+		1FF6E66C22E9AB74004E3BFB /* NetworkManagerCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManagerCache.m; sourceTree = "<group>"; };
 		480C3651C782B7A9255ED6BE /* Pods-customAnnotation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customAnnotation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-customAnnotation/Pods-customAnnotation.debug.xcconfig"; sourceTree = "<group>"; };
 		771DE6E5AD63088064D126D1 /* Pods-customAnnotation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customAnnotation.release.xcconfig"; path = "Pods/Target Support Files/Pods-customAnnotation/Pods-customAnnotation.release.xcconfig"; sourceTree = "<group>"; };
 		B10AF7C3631E40C2FAF316B5 /* libPods-customAnnotation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-customAnnotation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +153,7 @@
 		1971ED49205620A6001DCF97 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				1FF6E66622E9AB74004E3BFB /* NetWork */,
 				1971ED4A205620C1001DCF97 /* GMTabBarController.h */,
 				1971ED4B205620C1001DCF97 /* GMTabBarController.m */,
 			);
@@ -256,6 +266,19 @@
 			path = customAnnotationUITests;
 			sourceTree = "<group>";
 		};
+		1FF6E66622E9AB74004E3BFB /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				1FF6E66722E9AB74004E3BFB /* NetworkManager.h */,
+				1FF6E66A22E9AB74004E3BFB /* NetworkManager.m */,
+				1FF6E66822E9AB74004E3BFB /* NetworkManagerCache.h */,
+				1FF6E66C22E9AB74004E3BFB /* NetworkManagerCache.m */,
+				1FF6E66922E9AB74004E3BFB /* UIImage+CompressImage.m */,
+				1FF6E66B22E9AB74004E3BFB /* UIImage+CompressImage.h */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -267,8 +290,6 @@
 				19A435531FC432840047ADA8 /* Sources */,
 				19A435541FC432840047ADA8 /* Frameworks */,
 				19A435551FC432840047ADA8 /* Resources */,
-				F086370348D5211FF8C91DDD /* [CP] Embed Pods Frameworks */,
-				860B809CDFE0FB7474C9E185 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -408,36 +429,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		860B809CDFE0FB7474C9E185 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-customAnnotation/Pods-customAnnotation-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F086370348D5211FF8C91DDD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-customAnnotation/Pods-customAnnotation-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -457,7 +448,10 @@
 				1971ED55205626D4001DCF97 /* CalloutAnnotationView.m in Sources */,
 				1971ED4E205620C1001DCF97 /* GMTabBarController.m in Sources */,
 				198495A2205299EC00589A15 /* LocationModel.m in Sources */,
+				1FF6E66E22E9AB74004E3BFB /* NetworkManager.m in Sources */,
 				198495942052989900589A15 /* HomeController.m in Sources */,
+				1FF6E66D22E9AB74004E3BFB /* UIImage+CompressImage.m in Sources */,
+				1FF6E66F22E9AB74004E3BFB /* NetworkManagerCache.m in Sources */,
 				19849598205298ED00589A15 /* TempViewController.m in Sources */,
 				198495922052989900589A15 /* CustomAnnotation.m in Sources */,
 			);

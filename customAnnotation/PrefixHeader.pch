@@ -11,12 +11,16 @@
 
 #import "AFNetworking.h"
 #import "YYModel.h"
-#import "BANetManager.h"
 #import "SDImageCache.h"
 #import "UIImageView+WebCache.h"
+#import "NetworkManager.h"
 
 
-#define MAPURL    @"http://www.tourbjxch.com.cn/app/?action=get_res_list&name=enscenic&pagesize=10&pageindex=1"
+#define MAPURL    @"/app/?action=get_res_list&name=enscenic&pagesize=10&pageindex=1"
+
+
+
+static NSString * const DYQMainAPIBaseURLString = @"http://www.tourbjxch.com.cn/app/?action=get_res_list&name=enscenic&pagesize=10&pageindex=1";
 
 
 

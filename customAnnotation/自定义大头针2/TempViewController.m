@@ -88,7 +88,7 @@
 
 //初始化数据
 - (void)loadData {
-    [BANetManager ba_request_POSTWithUrlString:MAPURL isNeedCache:NO parameters:nil successBlock:^(id response) {
+    [NetworkManager requestPOSTWithUrlString:DYQMainAPIBaseURLString isNeedCache:NO parameters:nil successBlock:^(id response) {
         self.modelArray = response[@"data"];
         //遍历数组获取里面的字典，在调用YYModel方法
         [self.modelArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
@@ -100,13 +100,16 @@
             [self.listArray addObject:model];
         } ];
         
-        NSLog(@"%@",self.listArray);
+        //NSLog(@"%@",self.listArray);
         
         //添加大头针
         [self addAnnotation];
     } failureBlock:^(NSError *error) {
         NSLog(@"%@",error);
+
     } progressBlock:nil];
+    
+    
 }
 
 
